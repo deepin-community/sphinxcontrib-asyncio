@@ -1,0 +1,39 @@
+sphinxcontrib-asyncio (0.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 13.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump required python3-sphinx version to 3.0, per setup.py.
+  * Mark the autopkgtest as superficial (closes: #974525).
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 03 Oct 2021 21:50:56 +0300
+
+sphinxcontrib-asyncio (0.2.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Diane Trout ]
+  * Update Standards-Version to 4.4.1. No changes needed
+  * Add ${sphinxdoc:Depends} to package dependency
+
+ -- Diane Trout <diane@ghic.org>  Sat, 09 Nov 2019 22:04:14 -0800
+
+sphinxcontrib-asyncio (0.2.0-1) unstable; urgency=low
+
+  * Initial Packaging. (Closes: #900257)
+
+ -- Diane Trout <diane@ghic.org>  Sun, 27 May 2018 21:56:39 -0700
