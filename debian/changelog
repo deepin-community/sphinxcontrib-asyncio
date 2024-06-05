@@ -1,3 +1,17 @@
+sphinxcontrib-asyncio (0.3.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Edward Betts ]
+  * Patch to work with newer versions of Sphinx.
+  * Add Edward Betts to debian/copyright
+  * Add Edward Betts to Uploaders.
+  * Set Rules-Requires-Root to no.
+  * Update debian/watch format to version 4, no changes.
+
+ -- Edward Betts <edward@4angle.com>  Thu, 03 Aug 2023 12:47:56 +0100
+
 sphinxcontrib-asyncio (0.3.0-1) unstable; urgency=medium
 
   * Team upload.
