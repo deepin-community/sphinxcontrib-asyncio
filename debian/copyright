@@ -9,7 +9,9 @@ License: Apache-2.0
 
 Files: debian/*
 Copyright: 2018 Diane Trout <diane@ghic.org>
+           2023 Edward Betts <edward@4angle.com>
 License: Expat
+
 
 License: Apache-2.0
  On Debian systems the full text of the Apache-2.0 license can be found in
